@@ -1,0 +1,96 @@
+BEGIN:VCALENDAR
+METHOD:REQUEST
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:Mountain Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T020000
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0700
+RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=1SU;BYMONTH=11
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T020000
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0600
+RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=2SU;BYMONTH=3
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN="Chenoweth, Chad":mailto:Chad.Chenoweth@uchealth.org
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=gmuba1@gma
+ il.com:mailto:gmuba1@gmail.com
+DESCRIPTION;LANGUAGE=en-US:Moving to 3:30 - 4:20.\n\n----------------------
+ -\nPlease join the Microsoft Teams meeting link below.  <1 hour interview 
+ with Chad Chenoweth\, Dir of Application Development.\n\n\n\n_____________
+ ___________________________________________________________________\nMicro
+ soft Teams meeting\nJoin: https://teams.microsoft.com/meet/239640139051431
+ ?p=yMiCyxCWP2ewmE2vkM\nMeeting ID: 239 640 139 051 431\nPasscode: mL6iN2Jc
+ \n________________________________\nNeed help?<https://aka.ms/JoinTeamsMee
+ ting?omkt=en-US> | System reference<https://teams.microsoft.com/l/meetup-j
+ oin/19%3ameeting_Yzc4Njc3ODktZDQyOC00MDhlLWFhOGItODQyODFhYzIxYzc4%40thread
+ .v2/0?context=%7b%22Tid%22%3a%22f509e65c-8e0b-472d-b270-6ed49b8329dd%22%2c
+ %22Oid%22%3a%228f446baf-fea7-426b-b4b4-f5f2ede46fa9%22%7d>\nDial in by pho
+ ne\n+1 720-724-7119\,\,62814500#<tel:+17207247119\,\,62814500#> United Sta
+ tes\, Denver\nFind a local number<https://dialin.teams.microsoft.com/9b59c
+ 150-2a83-4027-bec7-0396e6be3466?id=62814500>\nPhone conference ID: 628 145
+  00#\nFor organizers: Meeting options<https://teams.microsoft.com/meetingO
+ ptions/?organizerId=8f446baf-fea7-426b-b4b4-f5f2ede46fa9&tenantId=f509e65c
+ -8e0b-472d-b270-6ed49b8329dd&threadId=19_meeting_Yzc4Njc3ODktZDQyOC00MDhlL
+ WFhOGItODQyODFhYzIxYzc4@thread.v2&messageId=0&language=en-US> | Reset dial
+ -in PIN<https://dialin.teams.microsoft.com/usp/pstnconferencing>\n[Company
+  Logo]\nPrivacy and security<https://www.uchealth.org/disclaimer>\n_______
+ _________________________________________________________________________\
+ n
+UID:040000008200E00074C5B7101A82E00800000000BFF1E69BBADCDC01000000000000000
+ 0100000001E40348086C13F4CBFDD25C35B6091AE
+SUMMARY;LANGUAGE=en-US:UCHealth Web Developer - Gene Uba
+DTSTART;TZID=Mountain Standard Time:20260507T153000
+DTEND;TZID=Mountain Standard Time:20260507T162000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260506T224634Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:1
+LOCATION;LANGUAGE=en-US:Microsoft Teams Meeting
+X-MICROSOFT-CDO-APPT-SEQUENCE:1
+X-MICROSOFT-CDO-OWNERAPPTID:2124754623
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-ONLINEMEETINGINFORMATION:{"OnlineMeetingChannelId":null\,"Onlin
+ eMeetingProvider":3}
+X-MICROSOFT-ONLINEMEETINGTOLLNUMBER:+1 720-724-7119
+X-MICROSOFT-ONLINEMEETINGCONFERENCEID:62814500
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://teams.microsoft.com/l/meetup-join/
+ 19%3ameeting_Yzc4Njc3ODktZDQyOC00MDhlLWFhOGItODQyODFhYzIxYzc4%40thread.v2/
+ 0?context=%7b%22Tid%22%3a%22f509e65c-8e0b-472d-b270-6ed49b8329dd%22%2c%22O
+ id%22%3a%228f446baf-fea7-426b-b4b4-f5f2ede46fa9%22%7d
+X-MICROSOFT-SCHEDULINGSERVICEUPDATEURL:https://api.scheduler.teams.microsof
+ t.com/teams/f509e65c-8e0b-472d-b270-6ed49b8329dd/8f446baf-fea7-426b-b4b4-f
+ 5f2ede46fa9/19_meeting_Yzc4Njc3ODktZDQyOC00MDhlLWFhOGItODQyODFhYzIxYzc4@th
+ read.v2/0
+X-MICROSOFT-SKYPETEAMSPROPERTIES:{"cid":"19:meeting_Yzc4Njc3ODktZDQyOC00MDh
+ lLWFhOGItODQyODFhYzIxYzc4@thread.v2"\,"rid":0\,"mid":0\,"uid":null\,"priva
+ te":true\,"type":0}
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:TRUE
+X-MICROSOFT-LOCATIONDISPLAYNAME:Microsoft Teams Meeting
+X-MICROSOFT-LOCATIONSOURCE:None
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"Microsoft Teams Meeting"\,"LocationA
+ nnotation":""\,"LocationUri":""\,"LocationStreet":""\,"LocationCity":""\,"
+ LocationState":""\,"LocationCountry":""\,"LocationPostalCode":""\,"Locatio
+ nFullAddress":""}]
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR
